@@ -39,7 +39,7 @@ class ChatRequest(BaseModel):
 
 
 class ChatResponse(BaseModel):
-    response: str # We'll return a JSON body like {"response": "..."}
+    response: str # We'll return a JSON body like  {"response": "..."}
 
 
 @app.get("/")
